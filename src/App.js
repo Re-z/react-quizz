@@ -50,6 +50,7 @@ function App() {
 						: (
 							<QuestionScreen
 								question={question}
+								questionsCounter={questionsCounter}
 								questionsToPass={questionsToPass}
 								correctAnwers={correctAnwers}
 								incorrectAnswers={incorrectAnswers}
